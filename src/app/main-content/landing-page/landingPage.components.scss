@@ -5,6 +5,7 @@ h1 {
     font-weight: bold;
     margin-block-start: 0;
     margin-block-end: 0;
+    text-wrap: nowrap;
 
 }
 
@@ -20,7 +21,7 @@ div{
 
 section{
     height: 100vh;
-    width: 100vw;
+    // width: 100vw;
     background-image: url('./../../../assets/img/1_hero/JPG/hero_bg.jpg');
     display: flex;
     align-items: center;
