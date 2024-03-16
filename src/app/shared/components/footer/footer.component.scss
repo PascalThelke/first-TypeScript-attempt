@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    background-color: #0A141E;
+
+    >img {
+        height: 32px;
+    }
+
+    >div {
+        display: flex;
+        gap: 8px;
+        >a {
+            >img{
+                width: 32px;
+            }
+        }
+
+    }
+}
